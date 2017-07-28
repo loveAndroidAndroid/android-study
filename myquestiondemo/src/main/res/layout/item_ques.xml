@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="13dp"
+    android:layout_marginBottom="20dp"
+    android:background="@mipmap/rectangle_y"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_select"
+        android:src="@mipmap/a"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_quesDetail"
+        android:text="将抗答复发顺"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#444444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

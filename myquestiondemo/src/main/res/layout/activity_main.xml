@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/bg_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/title"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="1.您最擅长的教研领域"
+            android:textColor="#0f3912"
+            android:textSize="16sp" />
+
+        <com.rmyh.myquestiondemo.NoScrollViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"></com.rmyh.myquestiondemo.NoScrollViewPager>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ima_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/back" />
+
+    <TextView
+        android:id="@+id/here_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="54dp"
+        android:text="1/18"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="474dp"
+        android:background="@drawable/bt_shape"
+        android:layout_centerHorizontal="true"
+        android:text="下一题"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_bottom_shape">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

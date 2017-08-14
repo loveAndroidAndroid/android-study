@@ -8,7 +8,7 @@
 
 # textview进阶使用
 
-##textviewdemo
+## textviewdemo
 
  1. textview跑马灯效果，及多条textiview同时滚动出现的问题及解决！
  2. 仿淘宝竖直滚动的textview
